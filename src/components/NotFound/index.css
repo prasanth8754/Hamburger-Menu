@@ -1,0 +1,27 @@
+.home-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found-img {
+  width: 100%;
+  align-self: center;
+}
+
+.not-found-h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.not-found-p {
+  color: #616e7c;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 20%;
+  }
+}

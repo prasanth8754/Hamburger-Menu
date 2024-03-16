@@ -1,0 +1,24 @@
+.home-cont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-img-sm {
+  width: 100%;
+}
+
+.home-img-md {
+  display: none;
+  width: 60%;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-img-sm {
+    display: none;
+  }
+  .home-img-md {
+    display: block;
+  }
+}
